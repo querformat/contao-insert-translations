@@ -1,0 +1,30 @@
+{
+  "name": "querformat/insert-translations",
+  "description": "Erlaubt das Erstellen von eigenen Layouts für Artikel",
+  "keywords": ["inserttag","i18n","modules","translations","content","contao","querformat"],
+  "type": "contao-module",
+  "license": "LGPL-3.0+",
+  "authors": [
+    {
+      "name": "Enrico Schiller",
+      "email": "schiller@querformat.info",
+      "homepage": "https://www.querformat.info",
+      "role": "Webdeveloper"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/querformat/contao-insert-translations/issues",
+    "source": "https://github.com/querformat/contao-insert-translations"
+  },
+  "require": {
+    "php": ">=5.3.4",
+    "contao/core-bundle": "^4.4"
+  },
+  "extra": {
+    "contao": {
+      "sources": {
+        "src/insert-translations": "system/modules/insert-translations"
+      }
+    }
+  }
+}
