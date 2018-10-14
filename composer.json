@@ -1,6 +1,6 @@
 {
   "name": "querformat/insert-translations",
-  "description": "Erlaubt das Erstellen von eigenen Layouts für Artikel",
+  "description": "Dieses Contao-Modul fügt im Backend den Menüpunkt Übersetzungen hinzu und ermöglicht darüber die Pflege von Übersetzungen als contao-eigene Insert-Tags.",
   "keywords": ["inserttag","i18n","modules","translations","content","contao","querformat"],
   "type": "contao-module",
   "license": "LGPL-3.0+",
