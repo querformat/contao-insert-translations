@@ -149,7 +149,7 @@ $GLOBALS['TL_DCA']['tl_insert_translations'] = array
             'eval' => array(
                 'allowHtml' => true
             ),
-            'sql' => "mediumtext NOT NULL"
+            'sql' => "mediumtext NULL"
         ),
         'trans' => array(
             'label' => array('Übersetzung'),
