@@ -76,7 +76,7 @@ $GLOBALS['TL_DCA']['tl_insert_translations'] = array
                 'label' => &$GLOBALS['TL_LANG']['tl_insert_translations']['delete'],
                 'href' => 'act=delete',
                 'icon' => 'delete.gif',
-                'attributes' => 'onclick="if(!confirm(\'' . $GLOBALS['TL_LANG']['MSC']['deleteConfirm'] . '\'))return false;Backend.getScrollOffset()"'
+                'attributes' => 'onclick="if(!confirm(\'' . ($GLOBALS['TL_LANG']['MSC']['deleteConfirm'] ?? null) . '\'))return false;Backend.getScrollOffset()"'
             ),
             'show' => array
             (
@@ -157,7 +157,7 @@ $GLOBALS['TL_DCA']['tl_insert_translations'] = array
             'eval' => array(
                 'allowHtml' => true,
                 'metaFields' => array(
-                    'translation' => '',
+                    'translation',
                 )
             ),
             'search' => true,

@@ -10,3 +10,4 @@
  */
  
 $GLOBALS['TL_LANG']['MOD']['insert_translations']= array('Übersetzungen','Generieren von eigenen Insert-Tags für Übersetzungen');
+$GLOBALS['TL_LANG']['MSC']['aw_translation'] = 'Übersetzung';
